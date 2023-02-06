@@ -5,3 +5,6 @@ command = "CI= npm run build"
 from = "/*"
 to = "/index.html"
 status = 200
+
+[[plugins]]
+package = "@netlify/plugin-nextjs"
