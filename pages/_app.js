@@ -4,7 +4,7 @@ import Navbar from '../components/Navbar';
 
 export default function App({ Component, pageProps }) {
   return (
-  <UserProvider loginUrl="https://habites.netlify.app/api/auth/login" profileUrl="https://habites.netlify.app/api/auth/me">
+  <UserProvider >
     <div className="w-full p-10 min-h-screen">
 			<div className="max-w-2xl mx-auto">
         <Navbar />
